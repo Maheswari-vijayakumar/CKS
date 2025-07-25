@@ -1,6 +1,6 @@
 ### Sacnning images
 
-We are going to use Trivy for image scanning
+We are going to use Trivy for scanning the image
 
 ### Trivy installtion
 ```
@@ -9,5 +9,16 @@ wget -qO - https://aquasecurity.github.io/trivy-repo/deb/public.key | sudo apt-k
 echo deb https://aquasecurity.github.io/trivy-repo/deb $(lsb_release -sc) main | sudo tee -a /etc/apt/sources.list.d/trivy.list
 sudo apt-get update
 sudo apt-get install trivy
+tri
 ```
+
+```
+docker pull nginx
+docker images
+
+# this will give you the vulnerabilities from your image, then search the details in `nvd` portal with faild item id like `CVE-2023-6879`
+trivy image nginx:latest
+
+```
+
 
