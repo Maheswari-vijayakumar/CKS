@@ -71,3 +71,6 @@ vim audit.rules
 cd docker-bench-security
 sudo sh docker-bench-security.sh
 ```
+
+=> likewise you can fix all the vulnerabilities and secured your docker engine :) 
+
