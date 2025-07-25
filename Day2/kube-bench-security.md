@@ -33,5 +33,32 @@ kubectl apply -f calico.yaml
 kubectl -n kube-system get pods
 ```
 
+### Next, move to kube bench security installtion
+
+=> search kube bench security in browser, then move to officical repo `https://github.com/aquasecurity/kube-bench` or use below url
+
+```
+# curl -L https://bit.ly/32BQF8G -o kube-bench_0.3.1_linux_amd64.deb
+ll
+sudo -i
+sudo apt install kube-bench_0.3.1_linux_amd64.deb
+kube
+
+```
+
+### Kube bench scan
+
+```
+kube-bench master
+```
+
+### Fixing vulnerabilities
+```
+will right later
+```
+
+
+
+
 
 
