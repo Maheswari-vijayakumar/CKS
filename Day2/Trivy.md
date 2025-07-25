@@ -12,6 +12,8 @@ sudo apt-get install trivy
 tri
 ```
 
+### Lets pull the nginx image and scan the image with trivy
+
 ```
 docker pull nginx
 docker images
