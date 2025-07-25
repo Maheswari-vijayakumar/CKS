@@ -26,4 +26,8 @@ sudo bash Assessor-CLI.sh -i
 
 ```
 
+=> then, report will be generated, you can get it under report folder in from mobaxstream, then download and review in the browser
+=> based on report you have to fix the all security breeches till you get 80 to 85% (once fixed the failed items, should run the command `sudo bash Assessor-CLI.sh -i`
+
+
 
