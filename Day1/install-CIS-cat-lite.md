@@ -3,10 +3,8 @@
 
 ```
 sudo apt update
-sudo apt install openjdk-17-jre -y
+sudo apt-get install openjdk-11-jdk -y && export JAVA_PATH=/usr/lib/jvm/java-11-openjdk-amd64/bin/
 java -version
-
-
 ```
 
 ### Download cat lite
@@ -24,7 +22,7 @@ unzip cis-cat.zip
 ls
 cd Assessor/
 ls
-bash Assessor-CLI.sh
+sudo bash Assessor-CLI.sh -i
 
 ```
 
