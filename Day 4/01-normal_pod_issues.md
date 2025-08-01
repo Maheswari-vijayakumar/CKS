@@ -36,6 +36,15 @@ id
 # To check the cabability of pod
 capsh --print
 
+# you can see evrything is done via root => so we need to work on this further
+ls -l /data
+touch testfile
+
+# you can see installtion also allowing in the container
+yum install nmap-ncat
+
+# also allow sudo permission
+su -
 
 
 
