@@ -46,9 +46,9 @@ yum install nmap-ncat
 # also allow sudo permission
 su -
 
-
-
 ```
+
+It is allowing everything, next we are going to secure the pod
 
 
 
