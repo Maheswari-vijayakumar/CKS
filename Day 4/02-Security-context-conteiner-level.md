@@ -1,3 +1,9 @@
+A Security Context in Kubernetes defines privilege and access control settings for pods or containers.
+
+It tells the container runtime how to run a container: as which user, with which capabilities, whether it can escalate privileges, and more.
+
+
+
 => Container level security
 
 ```
