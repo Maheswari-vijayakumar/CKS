@@ -1,8 +1,3 @@
-Here’s a well-formatted and annotated Markdown version of your **Pod-Level Security: Normal Pod** example, with context added for clarity — commands and YAML are kept **exactly as you wrote**:
-
----
-
-````md
 # 🔐 Pod-Level Security in Kubernetes
 
 Before we apply strict security controls, it's important to observe how a **normal, unsecured pod** behaves.
