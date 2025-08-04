@@ -1,8 +1,4 @@
-Here's a clean, structured `.md` (Markdown) version of your instructions, ready for documentation or onboarding use:
 
----
-
-````md
 ## ☕️ Java Installation & 📊 CAT Lite Security Scan Setup
 
 ---
