@@ -114,6 +114,14 @@ spec:
 
 ```
 kubectl apply -f apparmor-test-pod.yaml
+
+kubectl get pods -o wide
+kubectl exec -it testpod -- /bin/bash
+echo "File created by the pod" > /tmp/test
+
+Now, you can see the file creation deny permission
+
+
 ```
 
 
